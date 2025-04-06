@@ -49,7 +49,7 @@
         compatible = "avago,adns9800";
         reg = <0>;
         spi-max-frequency = <2000000>;
-        irq-gpios = <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        irq-gpios = <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
         cpi = <600>;
         evt-type = <INPUT_EV_REL>;
         x-input-code = <INPUT_REL_X>;
