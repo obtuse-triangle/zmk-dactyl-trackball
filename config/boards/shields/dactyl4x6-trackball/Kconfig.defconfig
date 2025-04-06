@@ -14,6 +14,7 @@ config ZMK_SPLIT
   default y
 
 config ZMK_POINTING
+  bool "Enable pointing device support"
   default y
 
 if ZMK_DISPLAY
