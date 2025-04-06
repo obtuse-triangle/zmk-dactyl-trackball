@@ -13,6 +13,9 @@ if SHIELD_DACTYL4X6_LEFT || SHIELD_DACTYL4X6_TRACKBALL_RIGHT
 config ZMK_SPLIT
   default y
 
+config ZMK_POINTING
+  default y
+
 if ZMK_DISPLAY
 
 config I2C
@@ -40,4 +43,9 @@ endchoice
 
 endif # LVGL
 
+endif
+
+if SHIELD_DACTYL4X6_TRACKBALL_RIGHT
+config SPI
+    default y
 endif
