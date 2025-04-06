@@ -45,6 +45,7 @@ endif
 if SHIELD_DACTYL4X6_TRACKBALL_RIGHT
 
 config ZMK_POINTING
+    bool
     default y
 
 config ADNS9800
