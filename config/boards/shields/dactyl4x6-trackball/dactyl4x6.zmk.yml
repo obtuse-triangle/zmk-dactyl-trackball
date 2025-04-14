@@ -1,0 +1,15 @@
+file_format: "1"
+id: dactyl
+name: Dactyl4x6-Trackball
+type: shield
+url: https://github.com/obtuse-triangle/zmk-dactyl-trackball
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  - underglow
+  - studio
+siblings:
+  - dactyl4x6_left
+  - dactyl4x6_trackball_right

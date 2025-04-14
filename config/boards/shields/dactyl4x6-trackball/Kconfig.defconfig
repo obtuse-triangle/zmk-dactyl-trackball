@@ -1,7 +1,7 @@
 if SHIELD_DACTYL4X6_LEFT
 
 config ZMK_KEYBOARD_NAME
-  default "Dactyl4x6"
+  default "Dactyl4x6-Trackball"
 
 config ZMK_SPLIT_ROLE_CENTRAL
   default y
