@@ -13,9 +13,6 @@ if SHIELD_DACTYL_LEFT || SHIELD_DACTYL_RIGHT
 config ZMK_SPLIT
   default y
 
-config BT_CTLR_TX_PWR_PLUS_8
-  default y
-
 config BT_DEVICE_NAME
   default "Dactyl 4x6"
 
