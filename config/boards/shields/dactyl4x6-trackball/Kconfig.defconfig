@@ -13,6 +13,10 @@ if SHIELD_DACTYL4X6_LEFT || SHIELD_DACTYL4X6_TRACKBALL_RIGHT
 config ZMK_SPLIT
   default y
 
+
+config CONFIG_BT_DEVICE_NAME
+  default "Dactyl 4x6"
+
 config ZMK_POINTING
   bool "Enable pointing device support"
   default y
