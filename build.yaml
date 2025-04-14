@@ -26,6 +26,7 @@ include:
     # cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: nice_nano_v2
     shield: dactyl4x6_trackball_right
+    snippet: zmk-usb-logging
   - board: nice_nano_v2
     shield: settings_reset
     # snippet: zmk-usb-logging
