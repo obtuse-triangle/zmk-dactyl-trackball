@@ -1,18 +1,20 @@
-if SHIELD_DACTYL4X6_LEFT
+if SHIELD_DACTYL_LEFT
 
 config ZMK_KEYBOARD_NAME
-  default "Dactyl"
+  default "dactyl"
 
 config ZMK_SPLIT_ROLE_CENTRAL
   default y
 
 endif
 
-if SHIELD_DACTYL4X6_LEFT || SHIELD_DACTYL4X6_TRACKBALL_RIGHT
+if SHIELD_DACTYL_LEFT || SHIELD_DACTYL_RIGHT
 
 config ZMK_SPLIT
   default y
 
+config BT_CTLR_TX_PWR_PLUS_8
+  default y
 
 config BT_DEVICE_NAME
   default "Dactyl 4x6"
@@ -50,7 +52,7 @@ endif # LVGL
 
 endif
 
-if SHIELD_DACTYL4X6_TRACKBALL_RIGHT
+if SHIELD_DACTYL_RIGHT
 config SPI
     default y
 endif
