@@ -63,19 +63,17 @@
     };
 };
 
-/ {
-    trackball_listener {
-        compatible = "zmk,input-listener";
-        device = <&trackball>;
-    };
-};
-
-
-// &trackball_split {
-//     device = <&trackball>;
-//     // input-processors = <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>;
-
+// / {
+//     trackball_listener {
+//         compatible = "zmk,input-listener";
+//         device = <&trackball>;
+//     };
 // };
+
+
+&trackball_split {
+    device = <&trackball>;
+};
 
 // &trackball_listener {
 //     status = "okay";
