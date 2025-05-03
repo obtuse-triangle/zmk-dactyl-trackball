@@ -15,8 +15,8 @@ endif # SHIELD_DACTYL_RIGHT
 
 if SHIELD_DACTYL_LEFT || SHIELD_DACTYL_RIGHT
 
-config ZMK_SPLIT_ROLE_CENTRAL
-  default y
+#########config ZMK_SPLIT_ROLE_CENTRAL
+#########  default y
 
 config ZMK_SPLIT
   default y
